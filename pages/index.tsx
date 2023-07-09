@@ -31,13 +31,12 @@ const Home = () => {
               <Fade triggerOnce cascade duration={1000}>
                 <h1 className="h-fit">No postergues tu salud mental</h1>
                 <p>
-                  Bienvenido/a a este espacio donde la salud mental es
-                  prioridad. En un mundo cada vez más acelerado y exigente, es
-                  fundamental cuidar de nuestra salud mental para disfrutar de
-                  una vida plena. Contar con el apoyo adecuado puede marcar la
-                  diferencia en tu proceso de recuperación y crecimiento
-                  personal. Pedir ayuda para superar tus dificultades es un acto
-                  de valentía y autocuidado, espero tu mensaje!
+                  En un mundo cada vez más acelerado y exigente, es fundamental
+                  cuidar de nuestra salud mental para disfrutar de una vida
+                  plena. Contar con el apoyo adecuado puede marcar la diferencia
+                  en tu proceso de recuperación y crecimiento personal. Pedir
+                  ayuda para superar tus dificultades es un acto de valentía y
+                  autocuidado, espero tu mensaje!
                 </p>
                 <a href="#contact">
                   <button className="w-fit container">Contactar</button>
@@ -70,13 +69,13 @@ const Home = () => {
             <h2>Flor Sian</h2>
             <p>
               Mi enfoque se centra en ayudar a niños, adolescentes y adultos a
-              superar sus dificultades para alcanzar una vida plena. Utilizo
-              técnicas respaldadas por la ciencia y brindo un enfoque empático y
-              personalizado. Mi objetivo es crear un espacio seguro y
-              confidencial donde te sientas escuchado/a y comprendido/a. Juntos,
-              trabajaremos para aliviar el malestar, mejorar tu salud mental y
-              desarrollar estrategias prácticas que te permitan superar los
-              obstáculos y promover tu bienestar en general.
+              superar dificultades y alcanzar una vida plena. Utilizo técnicas
+              respaldadas por la ciencia y brindo un enfoque empático y
+              personalizado en un espacio seguro y confidencial. Mi objetivo es
+              que te sientas escuchado/a y comprendido/a, trabajando juntos para
+              aliviar el malestar, mejorar tu salud mental y desarrollar
+              estrategias prácticas que te permitan superar los obstáculos y
+              promover el bienestar.
             </p>
           </Fade>
         </div>
@@ -106,14 +105,14 @@ const Home = () => {
 
                 <h3>Terapia de Aceptación y Compromiso (ACT)</h3>
                 <p>
-                  Imagina un barco en una tormenta. La ACT te enseña a aceptar
-                  las olas y el viento en lugar de luchar contra ellos.
-                  Aprenderás a aceptar tus pensamientos y emociones sin ser
-                  arrastrado por ellos. Con la ACT, también te guiaré hacia
-                  acciones valiosas que reflejen tus valores más profundos.
-                  Juntos, identificaremos lo que realmente importa en tu vida y
-                  tomarás decisiones que te acerquen a una vida plena y
-                  significativa.
+                  Imagina un barco en una tormenta, la ACT te enseña a aceptar
+                  las olas y el viento en lugar de luchar contra ellos. Desde
+                  este enfoque, te ayudaré a aceptar tus pensamientos y
+                  emociones sin ser arrastrado por ellos y a realizar acciones
+                  valiosas que reflejen tus valores más profundos y/o te
+                  acerquen a tus objetivos personales. Juntos, identificaremos
+                  lo que realmente importa en tu vida y tomarás decisiones que
+                  te acerquen a una vida plena y significativa.
                 </p>
               </li>
               <li className="md:w-3/12">
@@ -127,10 +126,14 @@ const Home = () => {
 
                 <h3>Terapia Cognitiva Conductual (TCC)</h3>
                 <p>
-                  Trabajaremos en conjunto para explorar la relación entre tus
-                  pensamientos, emociones y comportamientos. Descubriremos cómo
-                  estos elementos interactúan y cómo puedes hacer cambios
-                  positivos en ellos para superar el malestar.
+                  En la TCC, nos convertimos en detectives de la mente,
+                  investigando los patrones de pensamiento que pueden estar
+                  manteniendo el problema y analizando la relación entre esos
+                  pensamientos, tus emociones y comportamientos. Pero la TCC no
+                  solo se trata de explorar pensamientos! También implica
+                  cuestionar activamente esos pensamientos, tomar medidas
+                  concretas y enfrentar desafíos paso a paso para lograr cambios
+                  positivos.
                 </p>
               </li>
               <li className="md:w-3/12">
