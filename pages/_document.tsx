@@ -19,11 +19,11 @@ export default function Document() {
       </Head>
       <body>
         <Main />
-        {/* <NextScript />
+        <NextScript />
         <Script
           id="load analytics"
           strategy="lazyOnload"
-          src={`https://www.googletagmanager.com/gtag/js?id=G-7C3ZJ6MMFH`}
+          src={`https://www.googletagmanager.com/gtag/js?id=G-80H94CMG2V`}
         />
 
         <Script id="run analytics" strategy="lazyOnload">
@@ -31,11 +31,11 @@ export default function Document() {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '7C3ZJ6MMFH', {
+            gtag('config', 'G-80H94CMG2V', {
             page_path: window.location.pathname,
             });
         `}
-        </Script> */}
+        </Script>
       </body>
     </Html>
   );
