@@ -132,9 +132,8 @@ const Home = () => {
                   manteniendo el problema y analizando la relación entre esos
                   pensamientos, tus emociones y comportamientos. Pero la TCC no
                   solo se trata de explorar pensamientos! También implica
-                  cuestionar activamente esos pensamientos, tomar medidas
-                  concretas y enfrentar desafíos paso a paso para lograr cambios
-                  positivos.
+                  cuestionar esos pensamientos, tomar medidas concretas y
+                  enfrentar desafíos paso a paso para lograr cambios positivos.
                 </p>
               </li>
               <li className="md:w-3/12">
