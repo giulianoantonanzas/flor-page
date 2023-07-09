@@ -19,7 +19,7 @@ export default function Document() {
       </Head>
       <body>
         <Main />
-        <NextScript />
+        {/* <NextScript />
         <Script
           id="load analytics"
           strategy="lazyOnload"
@@ -35,7 +35,7 @@ export default function Document() {
             page_path: window.location.pathname,
             });
         `}
-        </Script>
+        </Script> */}
       </body>
     </Html>
   );
