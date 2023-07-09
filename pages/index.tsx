@@ -36,8 +36,9 @@ const Home = () => {
                   plena, contar con el apoyo adecuado puede marcar la diferencia
                   en tu proceso de recuperación y crecimiento personal. No lo
                   olvides: pedir ayuda para superar tus dificultades es un acto
-                  de valentía y autocuidado. ¡Espero recibir tu mensaje y poder
-                  acompañarte en este camino!
+                  de valentía y autocuidado. ¡Espero recibir tu mensaje para
+                  programar una sesión virtual y poder acompañarte en este
+                  camino!
                 </p>
                 <a href="#contact">
                   <button className="w-fit container">Contactar</button>
