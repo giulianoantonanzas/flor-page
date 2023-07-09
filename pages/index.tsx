@@ -33,10 +33,11 @@ const Home = () => {
                 <p>
                   En un mundo cada vez más acelerado y exigente, es fundamental
                   cuidar de nuestra salud mental para disfrutar de una vida
-                  plena. Contar con el apoyo adecuado puede marcar la diferencia
-                  en tu proceso de recuperación y crecimiento personal. Pedir
-                  ayuda para superar tus dificultades es un acto de valentía y
-                  autocuidado, espero tu mensaje!
+                  plena, contar con el apoyo adecuado puede marcar la diferencia
+                  en tu proceso de recuperación y crecimiento personal. No lo
+                  olvides: pedir ayuda para superar tus dificultades es un acto
+                  de valentía y autocuidado. ¡Espero recibir tu mensaje y poder
+                  acompañarte en este camino!
                 </p>
                 <a href="#contact">
                   <button className="w-fit container">Contactar</button>
@@ -66,7 +67,7 @@ const Home = () => {
 
         <div className="w-full md:w-3/4 container mx-auto text-center md:text-left">
           <Fade triggerOnce cascade delay={200} duration={1000}>
-            <h2>Flor Sian</h2>
+            <h2>Licenciada Florencia Sian</h2>
             <p>
               Mi enfoque se centra en ayudar a niños, adolescentes y adultos a
               superar dificultades y alcanzar una vida plena. Utilizo técnicas
