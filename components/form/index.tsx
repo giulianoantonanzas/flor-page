@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Fade } from "react-awesome-reveal";
 import Instagram from "../icon/instagram";
-import WhatsApp from "../icon/WhatsApp";
+import WhatsApp from "../icon/whatsApp";
 import Mail from "../icon/mail";
 
 const Form = () => {
