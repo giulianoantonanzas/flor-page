@@ -152,9 +152,8 @@ const Home = () => {
                   tus problemas, sino que también descubrirás tu potencial para
                   el cambio y el crecimiento. Trabajaremos juntos de manera
                   estratégica y creativa, utilizando soluciones prácticas para
-                  abordar tus desafíos. El objetivo es encontrar soluciones
-                  rápidas y efectivas para superar obstáculos y lograr tus metas
-                  en poco tiempo.
+                  abordar tus desafíos y lograr tus metas en el menor tiempo
+                  posible.
                 </p>
               </li>
               <li className="md:w-4/12">
@@ -167,15 +166,13 @@ const Home = () => {
                 />
                 <h3>Terapia Analítico Funcional (FAP)</h3>
                 <p>
-                  En la terapia FAP, exploraremos tus patrones de comportamiento
-                  y cómo afectan tus relaciones y bienestar emocional.
-                  Trabajaremos juntos para identificar los patrones
-                  problemáticos y desarrollar habilidades para mejorar tus
-                  conexiones con los demás. Este enfoque te brinda la
-                  oportunidad de practicar y aplicar lo aprendido en terapia en
-                  tu vida diaria. A través de ejercicios específicos,
-                  experimentarás nuevas formas de relacionarte y recibirás
-                  retroalimentación para tu crecimiento personal.
+                  Imagina que somos detectives sociales, investigando cómo
+                  interactúas con las personas que te rodean. Juntos,
+                  exploraremos tus patrones de comportamiento y cómo influyen en
+                  tus relaciones con los demás. Pero no se trata solo de
+                  analizar, sino también de actuar! Tendrás la oportunidad de
+                  poner en práctica nuevas habilidades en tu vida diaria y
+                  recibir retroalimentación para tu crecimiento personal.
                 </p>
               </li>
 
@@ -189,14 +186,14 @@ const Home = () => {
                 />
                 <h3>Entrenamiento en habilidades (DBT)</h3>
                 <p>
-                  El Entrenamiento en Habilidades es como un gimnasio emocional:
-                  Te ayudará a fortalecer tus habilidades para una vida
-                  equilibrada y satisfactoria. Aprenderás a manejar tus
-                  emociones intensas y desarrollar estrategias saludables de
-                  afrontamiento. Además, entrenarás tus habilidades de
-                  comunicación y relaciones interpersonales. Te enseñará a
-                  establecer límites saludables, resolver conflictos y construir
-                  conexiones más significativas con los demás.
+                  El entrenamiento en habilidades es como un gimnasio emocional:
+                  Aprenderás a manejar tus emociones intensas y desarrollar
+                  estrategias saludables para afrontar crisis. Además,
+                  entrenarás tus habilidades de comunicación, autocuidado y
+                  atención plena. Te brindará las herramientas necesarias para
+                  establecer límites saludables, tomar decisiones conscientes,
+                  resolver conflictos y construir conexiones más significativas
+                  con los demás.
                 </p>
               </li>
             </Fade>

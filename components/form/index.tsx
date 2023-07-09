@@ -50,7 +50,7 @@ const Form = () => {
       <Fade triggerOnce cascade delay={200} duration={500}>
         <div className="mb-4">
           <h2 className="my-2 text-center md:text-left">Contactame</h2>
-          <p>Tambien me puedes contactar a travez de los siguientes medios</p>
+          <p>También puedes contactarme a través de los siguientes medios:</p>
           <div className="w-1/4 flex gap-2 mt-2">
             <a
               href="https://www.instagram.com/psi.florenciasian/"
