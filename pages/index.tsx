@@ -33,12 +33,12 @@ const Home = () => {
                 <p>
                   En un mundo cada vez más acelerado y exigente, es fundamental
                   cuidar de nuestra salud mental para disfrutar de una vida
-                  plena, contar con el apoyo adecuado puede marcar la diferencia
-                  en tu proceso de recuperación y crecimiento personal. No lo
-                  olvides: pedir ayuda para superar tus dificultades es un acto
-                  de valentía y autocuidado. ¡Espero recibir tu mensaje para
-                  programar una sesión virtual y poder acompañarte en este
-                  camino!
+                  plena y contar con el apoyo de un profesional puede marcar la
+                  diferencia en tu proceso de recuperación y crecimiento
+                  personal. No lo olvides: pedir ayuda para superar tus
+                  dificultades es un acto de valentía y autocuidado. ¡Espero
+                  recibir tu mensaje para programar una sesión virtual y poder
+                  acompañarte en este camino!
                 </p>
                 <a href="#contact">
                   <button className="w-fit container">Contactar</button>
@@ -74,10 +74,9 @@ const Home = () => {
               superar dificultades y alcanzar una vida plena. Utilizo técnicas
               respaldadas por la ciencia y brindo un enfoque empático y
               personalizado en un espacio seguro y confidencial. Mi objetivo es
-              que te sientas escuchado/a y comprendido/a, trabajando juntos para
-              aliviar el malestar, mejorar tu salud mental y desarrollar
-              estrategias prácticas que te permitan superar los obstáculos y
-              promover el bienestar.
+              que te sientas escuchado/a y comprendido/a, mientras trabajamos
+              juntos para aliviar tu malestar y desarrollar estrategias
+              prácticas que te permitan superar obstáculos.
             </p>
           </Fade>
         </div>
