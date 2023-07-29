@@ -12,7 +12,7 @@ export default function Document() {
         />
         <meta
           name="keywords"
-          content="santa Fe, psicologia, flor, sian, florencia, licenciada, lic, terapia,"
+          content="depreción, salud, mental, bienestar,estoy mal, malestar, angustia, ayuda, online, Santa Fe, Buenos Aires anciedad, duelo, fobia, psicologa, psicologia, flor, sian, florencia, licenciada, lic, terapia"
         />
         <meta name="author" content="Giuliano Antonanzas" />
         <link rel="shortcut icon" href="/favicon.ico" />

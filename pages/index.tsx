@@ -29,16 +29,16 @@ const Home = () => {
           <div className="relative h-screen flex items-center container mx-auto">
             <div className="flex flex-col md:w-1/2 gap-4 text-center md:text-left">
               <Fade triggerOnce cascade duration={1000}>
-                <h1 className="h-fit">No postergues tu salud mental</h1>
+                <h1 className="h-fit">
+                  ¿Buscas un cambio positivo en tu vida?
+                </h1>
                 <p>
-                  En un mundo cada vez más acelerado y exigente, es fundamental
-                  cuidar de nuestra salud mental para disfrutar de una vida
-                  plena y contar con el apoyo de un profesional puede marcar la
-                  diferencia en tu proceso de recuperación y crecimiento
-                  personal. No lo olvides: pedir ayuda para superar tus
-                  dificultades es un acto de valentía y autocuidado. ¡Espero
-                  recibir tu mensaje para programar una sesión virtual y poder
-                  acompañarte en este camino!
+                  Te invito a explorar cómo la psicología online puede ayudarte.
+                  Contáctame para agendar una consulta o recibir más
+                  información. El equilibrio emocional es posible, y estoy aquí
+                  para acompañarte en tu viaje de autodescubrimiento y
+                  crecimiento. Tu bienestar es mi prioridad, no estás solo/a en
+                  esto.
                 </p>
                 <a href="#contact">
                   <button className="w-fit container">Contactar</button>
@@ -68,15 +68,16 @@ const Home = () => {
 
         <div className="w-full md:w-3/4 container mx-auto text-center md:text-left">
           <Fade triggerOnce cascade delay={200} duration={1000}>
-            <h2>Licenciada Florencia Sian</h2>
+            <h2>Acerca de mi</h2>
             <p>
-              Mi enfoque se centra en ayudar a niños, adolescentes y adultos a
-              superar dificultades y alcanzar una vida plena. Utilizo técnicas
-              respaldadas por la ciencia y brindo un enfoque empático y
-              personalizado en un espacio seguro y confidencial. Mi objetivo es
-              que te sientas escuchado/a y comprendido/a, mientras trabajamos
-              juntos para aliviar tu malestar y desarrollar estrategias
-              prácticas que te permitan superar obstáculos.
+              Soy Florencia Sian, licenciada en psicología. Mi enfoque se centra
+              en ayudar a niños, adolescentes y adultos a superar dificultades y
+              alcanzar una vida plena. Utilizo técnicas respaldadas por la
+              ciencia y brindo un enfoque empático y personalizado en un espacio
+              seguro y confidencial. Mi objetivo es que te sientas escuchado/a y
+              comprendido/a, mientras trabajamos juntos para aliviar tu malestar
+              y desarrollar estrategias prácticas que te permitan superar
+              obstáculos.
             </p>
           </Fade>
         </div>
@@ -100,40 +101,17 @@ const Home = () => {
                   className="m-auto mb-4"
                   width={200}
                   height={200}
-                  src={categoryTwo}
-                  alt="category-2"
+                  src={categoryFive}
+                  alt="category-5"
                 />
-
-                <h3>Terapia de Aceptación y Compromiso (ACT)</h3>
+                <h3>Afrontamos el Duelo Juntos</h3>
+                <h4>
+                  <strong>Encontrando Esperanza</strong>
+                </h4>
                 <p>
-                  Imagina un barco en una tormenta, la ACT te enseña a aceptar
-                  las olas y el viento en lugar de luchar contra ellos. Desde
-                  este enfoque, te ayudaré a aceptar tus pensamientos y
-                  emociones sin ser arrastrado por ellos y a realizar acciones
-                  valiosas que reflejen tus valores más profundos y/o te
-                  acerquen a tus objetivos personales. Juntos, identificaremos
-                  lo que realmente importa en tu vida y tomarás decisiones que
-                  te acerquen a una vida plena y significativa.
-                </p>
-              </li>
-              <li className="md:w-3/12">
-                <Image
-                  className="m-auto mb-4"
-                  width={200}
-                  height={200}
-                  src={categoryOne}
-                  alt="category-1"
-                />
-
-                <h3>Terapia Cognitiva Conductual (TCC)</h3>
-                <p>
-                  En la TCC, nos convertimos en detectives de la mente,
-                  investigando los patrones de pensamiento que pueden estar
-                  manteniendo el problema y analizando la relación entre esos
-                  pensamientos, tus emociones y comportamientos. Pero la TCC no
-                  solo se trata de explorar pensamientos! También implica
-                  cuestionar esos pensamientos, tomar medidas concretas y
-                  enfrentar desafíos paso a paso para lograr cambios positivos.
+                  Juntos/as enfrentaremos el dolor y buscaremos la esperanza en
+                  medio de la pérdida. Con comprensión y empatía, te acompañaré
+                  hacia la sanación emocional.
                 </p>
               </li>
               <li className="md:w-3/12">
@@ -145,34 +123,34 @@ const Home = () => {
                   alt="category-3"
                 />
 
-                <h3>Terapia Breve Estratégica</h3>
+                <h3>Manejo del Estrés y la Ansiedad</h3>
+                <h4>
+                  <strong>Supera tus Desafíos Internos</strong>
+                </h4>
                 <p>
-                  Imagina cómo sería salir de aquí con las herramientas para
-                  transformar tu vida. Desde este enfoque, no solo resolverás
-                  tus problemas, sino que también descubrirás tu potencial para
-                  el cambio y el crecimiento. Trabajaremos juntos de manera
-                  estratégica y creativa, utilizando soluciones prácticas para
-                  abordar tus desafíos y lograr tus metas en el menor tiempo
-                  posible.
+                  Recibe apoyo y guía especializada en el manejo del estrés y la
+                  ansiedad, con el objetivo de proporcionarte un camino hacia el
+                  bienestar.
                 </p>
               </li>
-              <li className="md:w-4/12">
+              <li className="md:w-3/12">
                 <Image
                   className="m-auto mb-4"
                   width={200}
                   height={200}
-                  src={categoryFour}
-                  alt="category-4"
+                  src={categoryOne}
+                  alt="category-1"
                 />
-                <h3>Terapia Analítico Funcional (FAP)</h3>
+
+                <h3>Supera la Depresión</h3>
+                <h4>
+                  <strong>Sanando Juntos</strong>
+                </h4>
                 <p>
-                  Imagina que somos detectives sociales, investigando cómo
-                  interactúas con las personas que te rodean. Juntos,
-                  exploraremos tus patrones de comportamiento y cómo influyen en
-                  tus relaciones con los demás. Pero no se trata solo de
-                  analizar, sino también de actuar! Tendrás la oportunidad de
-                  poner en práctica nuevas habilidades en tu vida diaria y
-                  recibir retroalimentación para tu crecimiento personal.
+                  Exploraremos los desafíos que enfrentas, brindándote un
+                  espacio seguro para expresar tus pensamientos y emociones. Con
+                  comprensión y empatía, te acompañaremos en tu camino hacia la
+                  recuperación.
                 </p>
               </li>
 
@@ -181,19 +159,36 @@ const Home = () => {
                   className="m-auto mb-4"
                   width={200}
                   height={200}
-                  src={categoryFive}
-                  alt="category-5"
+                  src={categoryFour}
+                  alt="category-4"
                 />
-                <h3>Entrenamiento en habilidades (DBT)</h3>
+                <h3>Autoestima y Confianza</h3>
+                <h4>
+                  <strong>Descubre tu Poder Interior</strong>
+                </h4>
                 <p>
-                  El entrenamiento en habilidades es como un gimnasio emocional:
-                  Aprenderás a manejar tus emociones intensas y desarrollar
-                  estrategias saludables para afrontar crisis. Además,
-                  entrenarás tus habilidades de comunicación, autocuidado y
-                  atención plena. Te brindará las herramientas necesarias para
-                  establecer límites saludables, tomar decisiones conscientes,
-                  resolver conflictos y construir conexiones más significativas
-                  con los demás.
+                  Juntos/as trabajaremos para identificar y desafiar creencias
+                  limitantes, construyendo una base sólida de autoestima y amor
+                  propio.
+                </p>
+              </li>
+
+              <li className="md:w-4/12">
+                <Image
+                  className="m-auto mb-4"
+                  width={200}
+                  height={200}
+                  src={categoryTwo}
+                  alt="category-2"
+                />
+
+                <h3>Autodescubrimiento</h3>
+                <h4>
+                  <strong>Explora tu Interior</strong>
+                </h4>
+                <p>
+                  Mediante sesiones individuales, trabajaremos en conjunto para
+                  identificar tus fortalezas, desafíos y metas personales.
                 </p>
               </li>
             </Fade>

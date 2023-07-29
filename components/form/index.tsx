@@ -5,6 +5,7 @@ import WhatsApp from "../icon/whatsApp";
 import Mail from "../icon/mail";
 
 const Form = () => {
+  const [loading, setLoading] = useState(false);
   const [form, setForm] = useState({
     fullName: "",
     email: "",
@@ -27,6 +28,7 @@ const Form = () => {
       return alert("Debes llenar todos los campos.");
     }
 
+    setLoading(true);
     fetch("/api/mail", {
       method: "POST",
       body: JSON.stringify(form),
@@ -43,6 +45,9 @@ const Form = () => {
           "Hubo un problema al enviar el email, puede probar por otro medio o intentelo mas tarde"
         );
         console.error(err);
+      })
+      .finally(() => {
+        setLoading(false);
       });
   };
   return (
@@ -50,16 +55,20 @@ const Form = () => {
       <Fade triggerOnce cascade delay={200} duration={500}>
         <div className="mb-4">
           <h2 className="my-2 text-center md:text-left">Contactame</h2>
-          <p>También puedes contactarme a través de los siguientes medios:</p>
+          <p>
+            Agenda una sesión conmigo y juntos/as trabajaremos en encontrar
+            soluciones. Estoy aquí para apoyarte en este camino. ¡Espero tu
+            mensaje!
+          </p>
           <div className="w-1/4 flex gap-2 mt-2">
             <a
               href="https://www.instagram.com/psi.florenciasian/"
               target="_blank"
             >
               <Instagram
-                className="fill-gray-400 hover:fill-gray-500"
-                width={25}
-                height={25}
+                className="fill-pink-400 hover:fill-pink-500"
+                width={30}
+                height={30}
               />
             </a>
             <a
@@ -67,16 +76,16 @@ const Form = () => {
               target="_blank"
             >
               <WhatsApp
-                className="fill-gray-400 hover:fill-gray-500"
-                width={25}
-                height={25}
+                className="fill-green-600 hover:fill-green-500"
+                width={30}
+                height={30}
               />
             </a>
             <a href="mailto:licflorenciasian@gmail.com" target="_blank">
               <Mail
-                className="fill-gray-400 hover:fill-gray-500"
-                width={25}
-                height={25}
+                className="fill-gray-500 hover:fill-gray-400"
+                width={30}
+                height={30}
               />
             </a>
           </div>
@@ -137,7 +146,11 @@ const Form = () => {
             </div>
           </div>
           <div className="mt-4">
-            <button className="w-full md:w-auto" type="submit">
+            <button
+              disabled={loading}
+              className="w-full md:w-auto"
+              type="submit"
+            >
               Enviar
             </button>
           </div>
